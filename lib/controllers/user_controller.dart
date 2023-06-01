@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:infinite_pagination_getx/repositories/user_repository.dart';
-import 'package:infinite_pagination_getx/users/user.dart';
+import 'package:infinite_pagination_getx/models/user.dart';
 
 class UserController extends GetxController {
   final UserRepository _userRepository = UserRepository();

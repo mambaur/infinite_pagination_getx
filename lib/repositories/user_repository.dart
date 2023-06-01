@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:infinite_pagination_getx/users/user.dart';
+import 'package:infinite_pagination_getx/models/user.dart';
 
 class UserRepository extends GetConnect {
   final String _baseUrl = 'https://60fec25a2574110017078789.mockapi.io/api/v1/';
